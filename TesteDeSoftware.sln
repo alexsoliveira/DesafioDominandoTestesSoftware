@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Teste de Unidade", "01 - Teste de Unidade", "{B559E9FD-204D-4556-A41D-8F04C490C8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Testes Basicos", "1.1 - Testes Basicos", "{90349C8A-CBA5-4A0D-B5D6-0CA922406F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "01 - Teste de Unidade\1.1 - Testes Basicos\Demo\Demo.csproj", "{02828760-91DE-4782-B055-4A35DC1A9409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Tests", "01 - Teste de Unidade\1.1 - Testes Basicos\Demo.Tests\Demo.Tests.csproj", "{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02828760-91DE-4782-B055-4A35DC1A9409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02828760-91DE-4782-B055-4A35DC1A9409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02828760-91DE-4782-B055-4A35DC1A9409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02828760-91DE-4782-B055-4A35DC1A9409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90349C8A-CBA5-4A0D-B5D6-0CA922406F23} = {B559E9FD-204D-4556-A41D-8F04C490C8D2}
+		{02828760-91DE-4782-B055-4A35DC1A9409} = {90349C8A-CBA5-4A0D-B5D6-0CA922406F23}
+		{CDD8C92C-68F9-4125-B3A4-D3C8F6E32F79} = {90349C8A-CBA5-4A0D-B5D6-0CA922406F23}
+	EndGlobalSection
+EndGlobal
